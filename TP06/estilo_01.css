@@ -1,0 +1,30 @@
+.caja{
+    padding: 16px;
+    width: 500px;
+    margin-bottom: 16px;
+}
+body{
+    background-color: black;
+}
+#coloresSemanticos{
+    background-color: midnightblue;
+    color: white;
+    border: solid 5px darkred;
+    outline: solid 5px darkgreen;
+    outline-offset: 4px;
+}
+#coloresRGB{
+    background-color: rgb(243, 232, 72);
+    color: rgb(51, 54, 236);
+    border: solid 5px rgb(0,56,56);
+    outline: solid 5px rgb(56,56,0);
+    outline-offset: 4px;
+}
+#coloresRGBA{
+    background-color: rgba(30, 16, 160, 0.507);
+    color: rgba(2, 41, 31, 0.664);
+}
+#coloresHexadecimales{
+    background-color: #FFFFFF;
+    color: #FF0000;
+}
