@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(18, 78, 78);
+}
+
+#contenedor{
+    background-color: rgb(243, 243, 243);
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+header img{
+    width: 400px;
+
+}
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 2.5em;
+    color: rgb(25, 114, 114);
+}
+
+nav{
+    background-color: rgb(25, 114, 114);
+    margin-top: 1em;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.7em;
+    transition: 0.3s;
+    display: inline-block;
+    }
+
+nav a:hover{
+    background-color: rgb(19, 85, 85);
+}
+
+main{
+    font-size: 0;
+}
+
+main div{
+    width: 70%;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0 1.5rem;    
+}
+
+main img{
+    width: 30%;
+        
+}
+
+#accion{
+    background-color: rgb(24, 102, 102);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+#accion a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0.3em;
+    display: inline-block;
+    background-color: rgb(18, 78, 78);
+    transition: 0.3s;
+}
+
+#accion a:hover{
+    transform: scale(105%);
+    
+}
+
+#testimonio{
+    font-size: 0;
+}
+
+#testimonio .card-test img{
+    width: 50%;
+    border-radius: 50%;
+    filter: grayscale(1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#testimonio .card-test{
+    width: calc(100%/3);
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0 1.5em;
+    text-align: center;
+    margin-top: 2em;
+    vertical-align: top;
+}
+
+#testimonio .card-test span{
+    display: inline-block;    
+}
+
+#testimonio .card-test span q{
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+#testimonio .card-test:hover img{
+    filter: grayscale(0);
+}
+
+#seccion-text{
+    padding: 1em;
+    margin-top: 1em;
+}
+
+footer{
+    background-color: rgb(19, 85, 85);
+    padding: 1em;
+    text-align: center;
+}
