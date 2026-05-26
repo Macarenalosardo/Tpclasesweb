@@ -1,0 +1,41 @@
+@media (width < 950px){
+    #card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #card .accion{
+        max-width: 25%;
+    }
+    #textos{
+        flex-wrap: wrap;
+    }
+}
+
+@media (width < 800px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media (width < 700px){
+    #card .accion{
+        max-width: 40%;        
+    }
+}
+
+
+@media (width < 500px){
+    main{
+        flex-direction: column;
+    }
+    #card .accion{
+        max-width: 100%;        
+    }
+}
+
+@media (width < 350px){
+    nav{
+        flex-direction: column;
+        width: 80%;
+    }
+}
